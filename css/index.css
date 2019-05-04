@@ -139,6 +139,10 @@ margin-bottom:20px;}
     margin-bottom: 0;
 }
 
+.prodimage {display: flex;
+ flex-basis: fit-content;
+}
+
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -229,4 +233,35 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* form styles */
+fieldset {
+    padding: 15px;
+}
+
+input[type=text] {padding: 5px;
+margin: 15px;
+}
+
+input[type=email] {padding: 5px;
+    margin: 15px;
+}
+
+input[type=submit] {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+input[type=submit]:hover {color: grey;
+background-color: black;}
+
+    input[type=checkbox] {
+        margin: 5px;
+    }
+
+legend {
+    margin: 5px;
 }
